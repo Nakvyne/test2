@@ -1,0 +1,148 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	text-align: center;
+}
+
+/* HEADER */
+
+.wrapper {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+header {
+	height: 100px;
+	background: #262626;
+	width: 100%;
+	z-index: 10;
+	position: fixed;
+}
+
+.logo {
+	width: 30%;
+	float: left;
+	line-height: 100px;
+}
+
+.logo a {
+	text-decoration: none;
+	font-size: 30px;
+	font-family: poppins;
+	color: #fff;
+	letter-spacing: 5px;
+}
+
+nav {
+	float: right;
+	line-height: 100px;
+}
+
+nav a {
+	text-decoration: none;
+	font-family: poppins;
+	letter-spacing: 4px;
+	font-size: 20px;
+	margin: 0 10px;
+	color: #fff;
+}
+
+/* MAIN */
+
+.banner-area {
+	width: 100%;
+	height: 500px;
+	position: fixed;
+	top: 100px;
+	background-image: url(file:///C:/Users/danie/Desktop/test/images/travel.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+}
+
+.banner-area h2 {
+	padding-top: 5%;
+	font-size: 70px;
+	font-family: poppins;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.button {
+	background-color: rgba(0, 0, 0, 0.48);
+	width: 20em;
+	height: 5em;
+	border: .2em solid black;
+	cursor: pointer;
+}
+
+.content-area {
+	width: 100%;
+	position: relative;
+	top: 450px;
+	background: #262626;
+	color: #fff;
+	height: 1500px;
+}
+
+.content-area h2 {
+	font-family: poppins;
+	letter-spacing: 4px;
+	padding-top: 30px;
+	font-size: 40px;
+	margin: 0;
+	padding-bottom: 30px;
+}
+
+.content-area p {
+	padding: 2% 0px;
+	font-family: poppins;
+	line-height: 30px;
+}
+
+.travel-box {
+	font-family: poppins;
+	width: 20em;
+	height: 35em;
+	padding: .5em;
+	margin-left: 10em;
+	float: left;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.foto1 {
+	width: 30em;
+	height: 20em;
+	flex-direction: row-reverse;
+}
+
+.text1 {
+	position: relative;
+	top: 5em;
+	background-color: rgba(0, 0, 0, 0.48);
+	width: 8em;
+}
+
+.foto2 {
+	width: 61em;
+	height: 20em;
+	flex-grow: 4;
+	margin-top: -15em;
+}
+
+.text2 {
+	top: -8em;
+}
+
+.foto3 {
+	width: 30em;
+	height: 20em;
+	flex-direction: row-reverse;
+}
